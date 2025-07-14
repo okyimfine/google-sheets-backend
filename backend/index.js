@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 const auth = new google.auth.GoogleAuth({
-  keyFile: 'goofle-465903-c15c0dc916d5.json',
+  keyFile: 'backend/goofle-465903-c15c0dc916d5.json',
   scopes: ['https://www.googleapis.com/auth/spreadsheets'],
 });
 
